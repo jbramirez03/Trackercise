@@ -2,7 +2,7 @@ const router = require('express').Router();
 const db = require('../../models');
 
 
-router.get('/workouts', async (req, res) => {
+router.get('/', async (req, res) => {
     try {
         const workouts = await db.Workout.find({});
         console.log(workouts);
@@ -13,15 +13,15 @@ router.get('/workouts', async (req, res) => {
 
 });
 
-router.put('/workouts', (req, res) => {
+router.put('/', (req, res) => {
 
 });
 
-router.post('/workouts', (req, res) => {
+router.post('/', (req, res) => {
 
 });
 
-router.get('./workouts/range', (req, res) => {
+router.get('/range', (req, res) => {
 
 });
 
