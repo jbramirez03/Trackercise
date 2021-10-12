@@ -4,7 +4,7 @@ const db = require('../../models');
 
 router.get('/', async (req, res) => {
     try {
-        const workouts = await db.Workout.find({});
+        const workouts = await db.Workout.find({}).populate("exercises");
         console.log(workouts);
         res.status(200).json(workouts);
     } catch (err) {

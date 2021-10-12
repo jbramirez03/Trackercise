@@ -10,11 +10,11 @@ const workoutSchema = new Schema({
     exercises: [
         {
             type: Schema.Types.ObjectId,
-            ref: "Exercises"
+            ref: "Exercise"
         }
     ]
 });
 
-const Workout = mongoose.model('Workouts', workoutSchema);
+const Workout = mongoose.model('Workout', workoutSchema);
 
 module.exports = Workout;
