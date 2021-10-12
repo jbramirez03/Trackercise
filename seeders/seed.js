@@ -12,7 +12,6 @@ const workoutSeed = [
     day: new Date(new Date().setDate(new Date().getDate() - 9)),
     exercises: [
       {
-        _id: mongoose.Types.ObjectId('53cb6b9b4f4ddef1ad47f943'),
         type: 'resistance',
         name: 'Bicep Curl',
         duration: 20,
@@ -26,7 +25,6 @@ const workoutSeed = [
     day: new Date(new Date().setDate(new Date().getDate() - 8)),
     exercises: [
       {
-        _id: mongoose.Types.ObjectId('53cb6b9b4f4ddef1ad47f944'),
         type: 'resistance',
         name: 'Lateral Pull',
         duration: 20,
@@ -40,7 +38,6 @@ const workoutSeed = [
     day: new Date(new Date().setDate(new Date().getDate() - 7)),
     exercises: [
       {
-        _id: mongoose.Types.ObjectId('53cb6b9b4f4ddef1ad47f945'),
         type: 'resistance',
         name: 'Push Press',
         duration: 25,
@@ -54,7 +51,6 @@ const workoutSeed = [
     day: new Date(new Date().setDate(new Date().getDate() - 6)),
     exercises: [
       {
-        _id: mongoose.Types.ObjectId('53cb6b9b4f4ddef1ad47f946'),
         type: 'cardio',
         name: 'Running',
         duration: 25,
@@ -66,7 +62,6 @@ const workoutSeed = [
     day: new Date(new Date().setDate(new Date().getDate() - 5)),
     exercises: [
       {
-        _id: mongoose.Types.ObjectId('53cb6b9b4f4ddef1ad47f947'),
         type: 'resistance',
         name: 'Bench Press',
         duration: 20,
@@ -80,7 +75,6 @@ const workoutSeed = [
     day: new Date(new Date().setDate(new Date().getDate() - 4)),
     exercises: [
       {
-        _id: mongoose.Types.ObjectId('53cb6b9b4f4ddef1ad47f948'),
         type: 'resistance',
         name: 'Bench Press',
         duration: 20,
@@ -94,7 +88,6 @@ const workoutSeed = [
     day: new Date(new Date().setDate(new Date().getDate() - 3)),
     exercises: [
       {
-        _id: mongoose.Types.ObjectId('53cb6b9b4f4ddef1ad47f949'),
         type: 'resistance',
         name: 'Quad Press',
         duration: 30,
@@ -108,7 +101,6 @@ const workoutSeed = [
     day: new Date(new Date().setDate(new Date().getDate() - 2)),
     exercises: [
       {
-        _id: mongoose.Types.ObjectId('53cb6b9b4f4ddef1ad47f953'),
         type: 'resistance',
         name: 'Bench Press',
         duration: 20,
@@ -122,7 +114,6 @@ const workoutSeed = [
     day: new Date(new Date().setDate(new Date().getDate() - 1)),
     exercises: [
       {
-        _id: mongoose.Types.ObjectId('53cb6b9b4f4ddef1ad47f963'),
         type: 'resistance',
         name: 'Military Press',
         duration: 20,
