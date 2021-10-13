@@ -8,21 +8,33 @@ router.get('/', async (req, res) => {
         console.log(workouts);
         res.status(200).json(workouts);
     } catch (err) {
-        err && console.log(err);
+        err && res.status(500).json(err);
     }
 
 });
 
 router.post('/', async (req, res) => {
+    try {
 
+    } catch (err) {
+        err && res.status(500).json(err);
+    }
 });
 
 router.post('/', async (req, res) => {
+    try {
 
+    } catch (err) {
+        err && res.status(500).json(err);
+    }
 });
 
 router.get('/range', (req, res) => {
+    try {
 
+    } catch (err) {
+        err && res.status(500).json(err);
+    }
 });
 
 module.exports = router;
