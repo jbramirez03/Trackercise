@@ -21,9 +21,14 @@ router.post('/', async ({ body }, res) => {
     }
 });
 
-router.put('/', async (req, res) => {
+router.put('/:id', async ({ params, body }, res) => {
     try {
-
+        const updatedWorkout = await db.Workout.findByIdAndUpdate(
+            params.id,
+            { $push: { exercises: body } },
+            { new: true }
+        );
+        res.status(200).json(updatedWorkout);
     } catch (err) {
         err && res.status(500).json(err);
     }
