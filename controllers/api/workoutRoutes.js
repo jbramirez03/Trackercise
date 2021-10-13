@@ -5,7 +5,6 @@ const db = require('../../models');
 router.get('/', async (req, res) => {
     try {
         const workouts = await db.Workout.find({});
-        console.log(workouts);
         res.status(200).json(workouts);
     } catch (err) {
         err && res.status(500).json(err);
@@ -13,15 +12,16 @@ router.get('/', async (req, res) => {
 
 });
 
-router.post('/', async (req, res) => {
+router.post('/', async ({ body }, res) => {
     try {
-
+        const newWorkout = await db.Workout.create(body);
+        res.status(200).json(newWorkout);
     } catch (err) {
         err && res.status(500).json(err);
     }
 });
 
-router.post('/', async (req, res) => {
+router.put('/', async (req, res) => {
     try {
 
     } catch (err) {
