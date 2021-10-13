@@ -13,11 +13,11 @@ router.get('/', async (req, res) => {
 
 });
 
-router.put('/', (req, res) => {
+router.post('/', async (req, res) => {
 
 });
 
-router.post('/', (req, res) => {
+router.post('/', async (req, res) => {
 
 });
 
