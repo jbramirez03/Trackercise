@@ -1,4 +1,3 @@
-const API = require('./api');
 
 init();
 
