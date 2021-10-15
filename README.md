@@ -9,6 +9,8 @@
 
 ## Summary
 
+This is an application that allows a user to keep track of their workouts and their exercises for each workout. Through the use of mongodb and mongoose in javascript the data from a user is stored and updated once a new workout/exercise is added. Routing using express handles calls to the database in the backend in order to render the charts that contain a users data.
+
 ## Table of Contents
 
 - [Usage](#usage)
@@ -24,7 +26,11 @@
 
 ## Usage
 
+Upon your first visit to the page, a form is rendered with an option to add a new workout. Once you start a new workout you can then add exercises to your workout through different forms. Once you have completed adding exercises you can then redirect to the dashboard and a chart containing data from your workouts is displayed.
+
 ## Functionality
+
+![Fitness Tracker](https://user-images.githubusercontent.com/82244776/137419150-40a5cc69-f8ef-44fe-92ef-8db6ef506838.gif)
 
 ## Credits
 
@@ -36,6 +42,8 @@ Jason Barrera-Ramirez<br><br>
 This Project is covered by the [MIT] license
 
 ## Challenges
+
+The main challenge for this project was creating a schema model for the workout collection through mongoose, and figuring out all the data types for each field in the model. The challenge following closely behind was using an aggregation pipeling in order to add a field for totalDuration that added up all of a users exercises duration into a single field.
 
 ## Technologies
 
@@ -63,7 +71,11 @@ This Project is covered by the [MIT] license
 
 ## Features
 
+The main feature for this project is the ability to store a users information in a mongodb database in order to create an efficient web application that can be scaled up if needed.
+
 ## Future Development
+
+A definite path this project is headed is the ability to incorporate more routes and the ability to have a login page in order to be able to switch between users workouts.
 
 ## How to Contribute
 
@@ -75,4 +87,4 @@ If there are any questions about the project get in contact with me at my [Email
 
 ## Link
 
-This is the link for the live website hosted on
+This is the link for the live website hosted on [heroku](https://afternoon-reef-67441.herokuapp.com/?id=6168d82e1ab2aa0016588053)
