@@ -43,7 +43,7 @@ This Project is covered by the [MIT] license
 [<img align="left" width="26px" alt="CSS" src="https://user-images.githubusercontent.com/82244776/132110242-a351f140-471c-4447-a513-91c2b8a166d7.png">][css]
 [<img align="left" width="26px" alt="html" src="https://user-images.githubusercontent.com/82244776/132110258-65db95d8-f35b-4a2d-a091-8051a6b6f4f2.png">][html]
 [<img align="left" width="26px" alt="nodejs" src="https://user-images.githubusercontent.com/82244776/134751947-5908a635-9d69-4dc7-8c4c-aeb9ea0fce66.png">][node]
-[<img align="left" width="26px" alt="mysql" src="https://user-images.githubusercontent.com/82244776/132110331-da9891ba-5eef-44c3-87db-869b91f34702.png">][mysql]
+[<img align="left" width="28px" alt="mysql" src="https://user-images.githubusercontent.com/82244776/137418230-eaf9e0c6-8be9-49e3-93c8-2246d4e7db42.png">][mongodb]
 [<img align="left" width="26px" alt="heroku" src="https://user-images.githubusercontent.com/82244776/132110346-720c197f-d193-4c6f-b84d-e9dc0420bba9.png">][heroku]
 [<img align="left" width="26px" alt="github" src="https://user-images.githubusercontent.com/82244776/132110367-f5e3b9f5-b3cb-49c1-be7c-aded0df1b8c1.png">][github]<br><br>
 
@@ -51,7 +51,7 @@ This Project is covered by the [MIT] license
 [css]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [html]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [node]: https://nodejs.org/en/docs/
-[mysql]: https://dev.mysql.com/doc/
+[mongodb]: https://www.mongodb.com/
 [heroku]: https://devcenter.heroku.com/categories/reference
 [github]: https://docs.github.com/en
 
